@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet menu</name>
+    <events>
+        <variable constant="0" name="move" sid="6327061599774043" static="0" type="number">2</variable>
+        <event-group description="" sid="7521770640032249" title="awal">
+            <sub-events>
+                <event-block sid="8164543444868568">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="3430784436027093" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="4461630396677819" type="menubelajar">
+                            <param id="0" name="Object">Sprite</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="6082407585459227" type="menumain">
+                            <param id="0" name="Object">Sprite</param>
+                            <param id="1" name="Image point (optional)">1</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="9758913498688558" type="menututorial">
+                            <param id="0" name="Object">Sprite</param>
+                            <param id="1" name="Image point (optional)">2</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="6310168255727006" type="menupengaturan">
+                            <param id="0" name="Object">Sprite</param>
+                            <param id="1" name="Image point (optional)">3</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="4305821817928401" type="menuexit">
+                            <param id="0" name="Object">Sprite</param>
+                            <param id="1" name="Image point (optional)">4</param>
+                        </action>
+                        <action disabled="1" id="9" name="Set scale" sid="9415598791081788" type="menuexit">
+                            <param id="0" name="Scale">0.3</param>
+                        </action>
+                        <action disabled="1" id="9" name="Set scale" sid="7604225349931253" type="menututorial">
+                            <param id="0" name="Scale">0.3</param>
+                        </action>
+                        <action disabled="1" id="9" name="Set scale" sid="8409067351524221" type="menubelajar">
+                            <param id="0" name="Scale">0.3</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="7296923759626836" type="tombolok">
+                            <param id="0" name="Animation">&quot;&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="6" name="Set speed" sid="3242628768280253" type="tombolok">
+                            <param id="0" name="Speed">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="5281346394077615">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8951739194852169" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="6173953099524431" type="Sprite">
+                    <param id="0" name="X">lerp(Sprite.X,m1.X,0.08)</param>
+                </action>
+                <action id="-7" name="Set size" sid="8740840979192449" type="menuexit">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="6199862733578983" type="menumain">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="6403547204724267" type="menututorial">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="5989088983577929" type="menubelajar">
+                    <param id="0" name="Width">380</param>
+                    <param id="1" name="Height">380</param>
+                </action>
+                <action id="-7" name="Set size" sid="387535660867032" type="menupengaturan">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3488544819071418">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9657418181970767" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="6585984557784854" type="Sprite">
+                    <param id="0" name="X">lerp(Sprite.X,m2.X,0.08)</param>
+                </action>
+                <action id="-7" name="Set size" sid="8144983331706057" type="menuexit">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="964360734894475" type="menumain">
+                    <param id="0" name="Width">380</param>
+                    <param id="1" name="Height">380</param>
+                </action>
+                <action id="-7" name="Set size" sid="9850295728083715" type="menututorial">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="647084629463307" type="menubelajar">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="7935548365370763" type="menupengaturan">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9162779628333575">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9309112807183035" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="6464808629595611" type="Sprite">
+                    <param id="0" name="X">lerp(Sprite.X,m3.X,0.08)</param>
+                </action>
+                <action id="-7" name="Set size" sid="748071484343373" type="menuexit">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="4637261083608544" type="menumain">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="2891739788382418" type="menututorial">
+                    <param id="0" name="Width">380</param>
+                    <param id="1" name="Height">380</param>
+                </action>
+                <action id="-7" name="Set size" sid="6326678644056559" type="menubelajar">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="4157086936551197" type="menupengaturan">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7078844058346184">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8342076769547746" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="5239671349969072" type="Sprite">
+                    <param id="0" name="X">lerp(Sprite.X,m4.X,0.08)</param>
+                </action>
+                <action id="-7" name="Set size" sid="6751782432916689" type="menuexit">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="6212692849677214" type="menumain">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="549776905516562" type="menututorial">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="6649334156652379" type="menubelajar">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="3008357841445968" type="menupengaturan">
+                    <param id="0" name="Width">380</param>
+                    <param id="1" name="Height">380</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="35078669489291">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3650546988016336" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="2889398826749491" type="Sprite">
+                    <param id="0" name="X">lerp(Sprite.X,m5.X,0.08)</param>
+                </action>
+                <action id="-7" name="Set size" sid="1747132259420554" type="menuexit">
+                    <param id="0" name="Width">380</param>
+                    <param id="1" name="Height">380</param>
+                </action>
+                <action id="-7" name="Set size" sid="7017790116810719" type="menumain">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="2394284785535284" type="menututorial">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="7939572775152542" type="menubelajar">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+                <action id="-7" name="Set size" sid="5705957833043311" type="menupengaturan">
+                    <param id="0" name="Width">280</param>
+                    <param id="1" name="Height">280</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4123684663684973">
+            <conditions>
+                <condition id="3" name="On key released" sid="7435439947932328" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="6610337066501884" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="5445690960598504" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6639897541999193">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="3868230663381472">
+            <conditions>
+                <condition id="3" name="On key released" sid="4818082964926627" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="9014270723202777" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="9985873636224062" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="765668952143843" title="jika objek di klik">
+            <sub-events>
+                <event-block sid="1428619951673407">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="918176225557465" type="Touch">
+                            <param id="0" name="Object">menubelajar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="1726356150886925" type="System">
+                            <param id="0" name="Variable">move</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9499728184612682" type="judultutorial">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4949615853540707" type="judulbelajar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3212652170453505" type="judulmain">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="57668148965462" type="judulkeluar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9699926827915725" type="judulpengaturan">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9969763344659821">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="4356029397608998" type="Touch">
+                            <param id="0" name="Object">menumain</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="561438092658321" type="System">
+                            <param id="0" name="Variable">move</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1835753366508155" type="judultutorial">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7656689903726823" type="judulbelajar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="272616221646657" type="judulmain">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3838509364870446" type="judulkeluar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9231397335584417" type="judulpengaturan">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4647842315552059">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="8641619187349947" type="Touch">
+                            <param id="0" name="Object">menututorial</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2683950189497497" type="System">
+                            <param id="0" name="Variable">move</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7317383956827096" type="judultutorial">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8660285320882471" type="judulbelajar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="619386832852831" type="judulmain">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7354364392181918" type="judulkeluar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1343874936354943" type="judulpengaturan">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2803450053719202">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="4569115788223228" type="Touch">
+                            <param id="0" name="Object">menupengaturan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="3869488223592158" type="System">
+                            <param id="0" name="Variable">move</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4557909491273024" type="judultutorial">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2320496308133723" type="judulbelajar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8130863417582713" type="judulmain">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4920788276119265" type="judulkeluar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7800832814659903" type="judulpengaturan">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5429428288136243">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="3572190642810671" type="Touch">
+                            <param id="0" name="Object">menuexit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="3395348026942906" type="System">
+                            <param id="0" name="Variable">move</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="6965507519516047" type="judultutorial">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9252408467810277" type="judulbelajar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9705682243083089" type="judulmain">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1884298179453715" type="judulkeluar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2057981912687855" type="judulpengaturan">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="8194944183739524">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4254042737991466" type="Touch">
+                    <param id="0" name="Object">tombolok</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7325391624264928" type="System">
+                    <param id="0" name="Variable">move</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1262774451353331" type="System">
+                    <param id="0" name="Layout">main</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

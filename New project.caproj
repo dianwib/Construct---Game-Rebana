@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="bg" sid="7111997545093721">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1551101169499255" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\bgnew.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulmain" sid="3425374751102464">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9869595566304214" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\taglatihanmenu.png">
+                        <collision-poly>
+                            <point x="0.268466" y="0.41954" />
+                            <point x="0.725852" y="0.5" />
+                            <point x="0.755682" y="0.810345" />
+                            <point x="0.232955" y="0.798851" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menumain" sid="9462459265871839">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2118016170314669" speed="5">
+                    <frame duration="1" hotspotX="0.501199" hotspotY="0.501199" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\menumain.png">
+                        <collision-poly>
+                            <point x="0.0383693" y="0.0383693" />
+                            <point x="0.498801" y="0" />
+                            <point x="0.961631" y="0.0383693" />
+                            <point x="1" y="0.498801" />
+                            <point x="0.961631" y="0.961631" />
+                            <point x="0.498801" y="1" />
+                            <point x="0.0383693" y="0.961631" />
+                            <point x="0" y="0.498801" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menubelajar" sid="7316218590030606">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8654514402532795" speed="5">
+                    <frame duration="1" hotspotX="0.501199" hotspotY="0.501199" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\menubelajar.png">
+                        <collision-poly>
+                            <point x="0.0383693" y="0.0383693" />
+                            <point x="0.498801" y="0" />
+                            <point x="0.961631" y="0.0383693" />
+                            <point x="1" y="0.498801" />
+                            <point x="0.961631" y="0.961631" />
+                            <point x="0.498801" y="1" />
+                            <point x="0.0383693" y="0.961631" />
+                            <point x="0" y="0.498801" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menututorial" sid="2061146199904168">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2926075213312613" speed="5">
+                    <frame duration="1" hotspotX="0.501199" hotspotY="0.501199" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\menulatihan.png">
+                        <collision-poly>
+                            <point x="0.0383693" y="0.0383693" />
+                            <point x="0.498801" y="0" />
+                            <point x="0.961631" y="0.0383693" />
+                            <point x="1" y="0.498801" />
+                            <point x="0.961631" y="0.961631" />
+                            <point x="0.498801" y="1" />
+                            <point x="0.0383693" y="0.961631" />
+                            <point x="0" y="0.498801" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="130592409901644">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2924823947994319" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.489362">
+                        <image-point name="Imagepoint 1" x="0.246032" y="0.531915" />
+                        <image-point name="Imagepoint 2" x="0.492063" y="0.510638" />
+                        <image-point name="Imagepoint 3" x="0.742063" y="0.510638" />
+                        <image-point name="Imagepoint 4" x="1" y="0.510638" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m1" sid="6657600229175747">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8969408624664648" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2" sid="8409266780877333">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7870986566756975" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="483070082539333">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5794922303259845" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m3" sid="7552602350672408">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2758817240721974" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menuexit" sid="6857296371219059">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891152718266406" speed="5">
+                    <frame duration="1" hotspotX="0.501199" hotspotY="0.501199" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\menukeluar.png">
+                        <collision-poly>
+                            <point x="0.0383693" y="0.0383693" />
+                            <point x="0.498801" y="0" />
+                            <point x="0.961631" y="0.0383693" />
+                            <point x="1" y="0.498801" />
+                            <point x="0.961631" y="0.961631" />
+                            <point x="0.498801" y="1" />
+                            <point x="0.0383693" y="0.961631" />
+                            <point x="0" y="0.498801" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m4" sid="1842374780268063">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8829384061044141" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="3693995387771113">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Touch" sid="2109903602330898">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Sprite2" sid="7075821310925651">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8766870412419156" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judullatihan2" sid="9980547204968716">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5171414976761744" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dianwib\Desktop\latihan.png">
+                        <collision-poly>
+                            <point x="0.268466" y="0.41954" />
+                            <point x="0.725852" y="0.5" />
+                            <point x="0.755682" y="0.810345" />
+                            <point x="0.232955" y="0.798851" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulbelajar" sid="84522399750519">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8517042283591824" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\belajar.png">
+                        <collision-poly>
+                            <point x="0.268466" y="0.41954" />
+                            <point x="0.725852" y="0.5" />
+                            <point x="0.755682" y="0.810345" />
+                            <point x="0.232955" y="0.798851" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judultutorial" sid="6933989516203607">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9143320618367957" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\tutorial.png">
+                        <collision-poly>
+                            <point x="0.268466" y="0.41954" />
+                            <point x="0.725852" y="0.5" />
+                            <point x="0.755682" y="0.810345" />
+                            <point x="0.232955" y="0.798851" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulkeluar" sid="6301258653473592">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1751220948181259" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\keluar.png">
+                        <collision-poly>
+                            <point x="0.268466" y="0.41954" />
+                            <point x="0.725852" y="0.5" />
+                            <point x="0.755682" y="0.810345" />
+                            <point x="0.232955" y="0.798851" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tombolok" sid="6107621699257666">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2146754627840251" speed="5">
+                    <frame duration="1" hotspotX="0.501805" hotspotY="0.505155" original-source="C:\Users\Dianwib\Desktop\tombolkembali1.png">
+                        <collision-poly>
+                            <point x="0.0902527" y="0.257732" />
+                            <point x="0.498195" y="0.0206186" />
+                            <point x="0.906137" y="0.268041" />
+                            <point x="0.99278" y="0.494845" />
+                            <point x="0.909747" y="0.742268" />
+                            <point x="0.498195" y="0.989691" />
+                            <point x="0.0902527" y="0.742268" />
+                            <point x="0.00361011" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501805" hotspotY="0.505155" original-source="C:\Users\Dianwib\Desktop\tombolkembali.png">
+                        <collision-poly>
+                            <point x="0.0902527" y="0.257732" />
+                            <point x="0.498195" y="0.0206186" />
+                            <point x="0.906137" y="0.268041" />
+                            <point x="0.99278" y="0.494845" />
+                            <point x="0.909747" y="0.742268" />
+                            <point x="0.498195" y="0.989691" />
+                            <point x="0.0902527" y="0.742268" />
+                            <point x="0.00361011" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tombolkeluar" sid="5102244491502936">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4051206322661378" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Dianwib\Desktop\tombolkembali1.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.257732" />
+                            <point x="0.5" y="0.0206186" />
+                            <point x="0.9375" y="0.257732" />
+                            <point x="1" y="0.494845" />
+                            <point x="0.94" y="0.752577" />
+                            <point x="0.5" y="0.989691" />
+                            <point x="0.06" y="0.752577" />
+                            <point x="0" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="2256583684988246">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1001706169885257" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dianwib\Desktop\dalam.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menupengaturan" sid="7246714724539169">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5078691878881172" speed="5">
+                    <frame duration="1" hotspotX="0.501199" hotspotY="0.501199" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\menupengaturan.png">
+                        <collision-poly>
+                            <point x="0.0383693" y="0.0383693" />
+                            <point x="0.498801" y="0" />
+                            <point x="0.961631" y="0.0383693" />
+                            <point x="1" y="0.498801" />
+                            <point x="0.961631" y="0.961631" />
+                            <point x="0.498801" y="1" />
+                            <point x="0.0383693" y="0.961631" />
+                            <point x="0" y="0.498801" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judulpengaturan" sid="5609109431553031">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1453421274760879" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\pengaturan.png">
+                        <collision-poly>
+                            <point x="0.105114" y="0.425287" />
+                            <point x="0.5" y="0.0977011" />
+                            <point x="0.894886" y="0.425287" />
+                            <point x="0.909091" y="0.5" />
+                            <point x="0.928977" y="0.712644" />
+                            <point x="0.5" y="0.666667" />
+                            <point x="0.0653409" y="0.735632" />
+                            <point x="0.0795455" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m5" sid="2442800304966643">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9720622354899335" speed="5">
+                    <frame duration="1" hotspotX="0.504673" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="t1" sid="7507691687104855">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite5" sid="7301315405100072">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3504617978105918" speed="5">
+                    <frame duration="1" hotspotX="0.48913" hotspotY="0.456522" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\dalam.png">
+                        <collision-poly>
+                            <point x="0.168478" y="0.13587" />
+                            <point x="0.48913" y="0.00543474" />
+                            <point x="0.820652" y="0.125" />
+                            <point x="0.98913" y="0.456522" />
+                            <point x="0.86413" y="0.831522" />
+                            <point x="0.48913" y="0.994565" />
+                            <point x="0.125" y="0.820652" />
+                            <point x="0.0108696" y="0.456522" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="6067141095067454">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite6" sid="5122765809914285">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1894257462522282" speed="5">
+                    <frame duration="1" hotspotX="0.48913" hotspotY="0.456522" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\dalam.png">
+                        <collision-poly>
+                            <point x="0.168478" y="0.13587" />
+                            <point x="0.48913" y="0.00543474" />
+                            <point x="0.820652" y="0.125" />
+                            <point x="0.98913" y="0.456522" />
+                            <point x="0.86413" y="0.831522" />
+                            <point x="0.48913" y="0.994565" />
+                            <point x="0.125" y="0.820652" />
+                            <point x="0.0108696" y="0.456522" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="927140689592924">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9267824167907175">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8780988130092858" speed="5">
+                    <frame duration="1" hotspotX="0.48913" hotspotY="0.456522" original-source="D:\Δserbaserbitugas\KULIAH\ETC\PROJECT MTQ\dalam.png">
+                        <collision-poly>
+                            <point x="0.168478" y="0.13587" />
+                            <point x="0.48913" y="0.00543474" />
+                            <point x="0.820652" y="0.125" />
+                            <point x="0.98913" y="0.456522" />
+                            <point x="0.86413" y="0.831522" />
+                            <point x="0.48913" y="0.994565" />
+                            <point x="0.125" y="0.820652" />
+                            <point x="0.0108696" y="0.456522" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="7233915573164038">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="header" sid="7765114689947238">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="T" sid="8344031611941996">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="D" sid="2910116063217285">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Function" sid="5212209667661681">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="WebStorage" sid="8769077696870493">
+            <plugin id="WebStorage" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>mainmenu.xml</layout>
+        <layout>main.xml</layout>
+        <layout>Layout 1.xml</layout>
+        <layout>loading.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Event sheet menu.xml</event-sheet>
+        <event-sheet>Event sheet main.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="12" />
+        <global-instance type="Touch" uid="13">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="34" />
+        <global-instance type="WebStorage" uid="35" />
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

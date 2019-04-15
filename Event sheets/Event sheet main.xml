@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet main</name>
+    <events>
+        <event-block sid="2200748609099334">
+            <conditions>
+                <condition id="3" name="On touched object" sid="723094524533537" type="Touch">
+                    <param id="0" name="Object">tombolkeluar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="2358410924576035" type="System">
+                    <param id="0" name="Which">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

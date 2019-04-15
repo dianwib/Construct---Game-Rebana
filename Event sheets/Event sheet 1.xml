@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="tengah" sid="8311749886447566" static="0" type="number">800</variable>
+        <event-block sid="4887952112084874">
+            <conditions>
+                <condition id="-12" name="Repeat" sid="2302921258891644" type="System">
+                    <param id="0" name="Count">distance (t1.X,t1.Y,Sprite5.X,t1.Y)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="2971652322111006" type="System">
+                    <param id="0" name="Seconds">1.3*loopindex</param>
+                </action>
+                <action id="-23" name="Move at angle" sid="2420510318264456" type="t1">
+                    <param id="0" name="Angle">angle(Self.X, Self.Y, Sprite5.X,Sprite5.Y)</param>
+                    <param id="1" name="Distance">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2712754766102135">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4835776427205353" type="Touch">
+                    <param id="0" name="Object">tombolkeluar</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="4123470962254935" type="t1">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">400</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="8081055562321846" type="Text2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="8756538610234196" type="System">
+                    <param id="0" name="Seconds">0.4</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9958311720482536" type="Text2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2218154553126471">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2502979475802426" type="Sprite7">
+                    <param id="0" name="Object">t1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="6723854813030996" type="t1">
+                    <param id="0" name="X">1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <variable constant="0" name="countloop" sid="7753386882139225" static="0" type="number">0</variable>
+        <variable constant="0" name="inputuser" sid="5099454382681476" static="0" type="text"></variable>
+        <event-block sid="3546062921359829">
+            <conditions>
+                <condition id="1" name="On text changed" sid="699129660052987" type="TextBox" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3450990133348896" type="System">
+                    <param id="0" name="Variable">inputuser</param>
+                    <param id="1" name="Value">TextBox.Text</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2052087965772301">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="8185358146548685">
+            <conditions>
+                <condition id="0" name="On function" sid="1407985197069284" type="Function">
+                    <param id="0" name="Name">&quot;cekinput&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="136830910838878">
+                    <conditions>
+                        <condition id="-24" name="For Each (ordered)" sid="1829681847690752" type="System">
+                            <param id="0" name="Object">TextBox</param>
+                            <param id="1" name="Expression">0</param>
+                            <param id="2" name="Order">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="3388237699610636">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2184006420881962">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
